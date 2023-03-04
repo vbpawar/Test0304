@@ -1,0 +1,20 @@
+# Install git and configure git.
+- https://gitforwindows.org/
+
+configure- open VS code and add following two commands.
+
+$ git config --global user.name <username> 
+# eg git config --global user.name "Jane Doe"
+$ git config --global user.email <email-address> 
+# eg git config --global user.email "janeDoe@gmail.com"
+
+add existing directory to the repository.
+
+$ git init
+$ git remote add origin git@github.com:abeelan/vue_demo.git
+$ git add .
+$ git commit -m "demo finished"
+$ git branch -M main
+$ git push -u origin main
+
+
